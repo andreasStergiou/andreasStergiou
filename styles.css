@@ -11,11 +11,11 @@ header {
     text-align: center;
 }
 
-header nav ul li.selected {
+li.selected {
     position: relative;
 }
 
-header nav ul li.selected::before {
+li.selected::before {
     content: "";
     position: absolute;
     width: 12px;
