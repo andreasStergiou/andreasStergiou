@@ -4,13 +4,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
-
 li.selected {
     position: relative;
 }
@@ -25,8 +18,17 @@ li.selected::before {
     left: 0;
 }
 
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
 nav ul {
     list-style: none;
+    padding: 0;
 }
 
 nav ul li {
@@ -37,6 +39,13 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ddd;
 }
 
 .main {
