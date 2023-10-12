@@ -1,5 +1,6 @@
 ### Hi there 👋
 
+Background Image by rawpixel.com on Freepik
 <!--
 **ikokostas/ikokostas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
