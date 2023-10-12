@@ -5,7 +5,7 @@ body {
     #background-color: #f7f7f7; /* Subtle grey color */
     background-image: url('background.jpg'); 
     background-size: cover; 
-    background-position: center;
+    background-position: 50% 50%;
 
 }
 
