@@ -11,6 +11,10 @@ header {
     text-align: center;
 }
 
+header nav ul li.selected {
+            background-color: #333;
+        }
+
 nav ul {
     list-style: none;
 }
