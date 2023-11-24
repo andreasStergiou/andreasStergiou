@@ -115,6 +115,15 @@ nav ul li a:hover {
     line-height: 1.6;
     color: #333;
 }
+
+.about .highlighted-text {
+            /* Add styles for the highlighted text here */
+            font-weight: bold;
+            color: #ff3366; /* Change the color as needed */
+            text-decoration: underline; /* Add underline for emphasis */
+            font-style: italic; /* Add italic style for emphasis */
+        }
+
 /* Add styles for the contact page */
 .contact {
     text-align: center;
