@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    #background-color: #f7f7f7; /* Subtle grey color */
     background-image: url('background.jpg'); 
     background-size: cover;
 }
@@ -90,7 +89,7 @@ nav ul li a:hover {
   margin: 10px;
   background-color: #fff; /* White background color */
   color: #000; /* Black text color */
-  border: 1px solid #3498db; /* Border color */
+  border: 1px solid #0c70b3; /* Border color */
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
@@ -118,7 +117,7 @@ nav ul li a:hover {
 
 .about .highlighted-text {
     font-weight: bold;
-    color: #3498db;
+    color: #0c70b3;
     text-decoration: underline; 
     font-style: italic;
 }
