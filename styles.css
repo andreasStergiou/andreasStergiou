@@ -74,27 +74,6 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-.services-list {
-  list-style: none;
-  padding: 0;
-  text-align: center;
-}
-
-.project {
-  margin: 8px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  background-color: #fff;
-}
-
 .centered-list {
   text-align: center;
 }
@@ -109,8 +88,9 @@ nav ul li a:hover {
   font-size: 18px;
   padding: 10px;
   margin: 10px;
-  background-color: #3498db;
-  color: #fff;
+  background-color: #fff; /* White background color */
+  color: #000; /* Black text color */
+  border: 1px solid #3498db; /* Border color */
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
