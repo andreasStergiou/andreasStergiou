@@ -95,6 +95,31 @@ nav ul li a:hover {
   background-color: #fff;
 }
 
+.centered-list {
+  text-align: center;
+}
+
+.fancy-list {
+  list-style: none;
+  padding: 0;
+}
+
+.fancy-list-item {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.fancy-list-item:hover {
+  transform: scale(1.1);
+}
+
 .about {
     max-width: 600px;
     margin: 0 auto;
