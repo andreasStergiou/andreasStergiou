@@ -155,3 +155,14 @@ nav ul li a:hover {
 .contact-info a:hover {
     text-decoration: underline;
 }
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    max-width: 100%; /* Make sure the image doesn't exceed its container's width */
+    margin-bottom: 10px; /* Add some space below the image */
+}
