@@ -164,5 +164,6 @@ nav ul li a:hover {
 
 img {
     max-width: 100%; /* Make sure the image doesn't exceed its container's width */
-    margin-bottom: 10px; /* Add some space below the image */
+    max-height: 50px; /* Set a maximum height for the image */
+    margin: 0 auto; /* Center the image using margin auto */
 }
